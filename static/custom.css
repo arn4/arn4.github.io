@@ -1,0 +1,37 @@
+:root {
+    --cu-blue: #5284bd;
+    /* --cu-orange: #bd8b52; */
+    --cu-orange: #cf8c40;
+    --cu-red: #bd5284;
+    --cu-green: #52bd8b;
+  }
+  
+  body {
+    font-family: 'Computer Modern Sans', 'sans-serif'; /*, 'Helvetica', 'Arial', sans-serif;*/
+  }
+  
+  
+  /* Links */
+  a:link {
+    color: var(--cu-red);
+  }
+  
+  a:visited {
+    color: var(--cu-red);
+  }
+  
+  a:hover {
+    border-color: var(--cu-red);
+  }
+  
+   .cu-navbar {
+    background-color: var(--cu-orange);
+  }
+  
+  /* Others */
+  .cu-paper-card {
+    color: white;
+    /* font-weight: bold; */
+    font-size: 16pt;
+    background-color: var(--cu-blue);
+  }

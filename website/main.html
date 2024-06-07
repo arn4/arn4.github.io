@@ -1,10 +1,47 @@
-<div class="container">
-    <div class="row">
-      <div class="col-sm-4 col-12">
-        <img class="avatar avatar-circle" width="270" height="270" src="{_static_}/personal_photos/square_big.jpg" alt="Florent Krzakala">
-      </div>
-      <div class="col-sm-8 col-12 bg-dark">
-        Text
-      </div>
+<div class="row">
+    <div class="col-sm-6 col-12">
+        <div class = "card py-3 justify-content-center">
+            <div class="d-flex justify-content-center align-items-center">
+                <img class="card-img-top rounded-circle" src="{_static_}/personal_photos/square_big.jpg?{$timestamp$}" style="width: 60%;" alt="Card image" >
+            </div>
+            <div class="card-body">
+                <h5 class="card-title text-center"> PhD Student in ML Theory</h5>
+                <div class="row">
+                    <div class="col-12 text-center">
+                            <div class="row justify-content-left">
+                                <a href="mailto:luca.arnaboldi@epfl.ch">
+                                    <i class="fa-regular fa-envelope fa-xl"></i>  luca.arnaboldi@epfl.ch
+                                </a>
+                            </div>
+                            <div class="row">
+                                <a href="https://scholar.google.com/citations?user=8Z6Z9YIAAAAJ">
+                                    <i class="fa-brands fa-google-scholar fa-xl"></i> Google Scholar
+                                </a>
+                            </div>
+                            <div class="row">
+                                <a href="https://www.linkedin.com/in/lucaarnaboldi/">
+                                    <i class="fa-brands fa-linkedin fa-xl"></i> LinkedIn
+                                </a>
+                            </div>
+                            <div class="row">
+                                <a href="https://github.com/arn4/">
+                                    <i class="fa-brands fa-github fa-xl"></i> GitHub
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-12 bg-light fg-light">
+        <p class="text-justify">
+            I am a second-year PhD student at <a href="https://www.epfl.ch/labs/idephics/">IdePHICS Laboratory</a>,
+            located at <a href="http://epfl.ch/">EPFL</a> Lausanne.
+        </p>
+        <p class="text-justify">
+            My research interests lie in the training dynamics of high-dimensional neural networks.
+            My recent work focuses on the study of single/mulindex models hardness when learned with SGD.
+            Check my <a href="{_research_}">pubblication list</a> to know more.
+        </p>
     </div>
 </div>
