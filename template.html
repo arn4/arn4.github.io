@@ -15,9 +15,9 @@
     <link href="{_static_}/custom.css?{$timestamp$}" rel="stylesheet"/>
   </head>
   <body>
-    <header> 
+    <header class="sticky-top"> 
       <!-- The actual navbar -->
-      <nav class="navbar navbar-expand-sm sticky-top navbar-dark cu-navbar">
+      <nav class="navbar navbar-expand-sm navbar-dark cu-navbar">
         <div class="container" id = "navbarContainer">
           <a class="navbar-brand" href="{_home_}">Luca Arnaboldi</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,17 +37,17 @@
       </nav>
     </header>
     <main>
-      <div class="container py-3" id="mainContainer"> 
+      <div class="container py-3" id="mainContainer">
         {#main#}
       </div>
     </main>
-    <footer>
+    <footer class="cu-footer">
       <div class="container">
-        <div class="row justify-content-center my-3">
+        <div class="row justify-content-center mt-auto py-1">
           <div class="col-12 text-center">
               <p><small>Made with <a href="https://github.com/arn4/swamp">SWAMP</a></small></p>
           </div>
-        </div>
+        </div> 
       </div>
     </footer>
   </body>

@@ -1,37 +1,57 @@
 :root {
-    --cu-blue: #5284bd;
-    /* --cu-orange: #bd8b52; */
-    --cu-orange: #cf8c40;
-    --cu-red: #bd5284;
-    --cu-green: #52bd8b;
-  }
-  
-  body {
-    font-family: 'Computer Modern Sans', 'sans-serif'; /*, 'Helvetica', 'Arial', sans-serif;*/
-  }
-  
-  
-  /* Links */
-  a:link {
-    color: var(--cu-red);
-  }
-  
-  a:visited {
-    color: var(--cu-red);
-  }
-  
-  a:hover {
-    border-color: var(--cu-red);
-  }
-  
-   .cu-navbar {
-    background-color: var(--cu-orange);
-  }
-  
-  /* Others */
-  .cu-paper-card {
-    color: white;
-    /* font-weight: bold; */
-    font-size: 16pt;
-    background-color: var(--cu-blue);
-  }
+  --cu-blue: #505FA5; /* Savoy Blue */
+  --cu-lightblue: #A4ACCA;
+  --cu-white: #F7F8EF;
+  --cu-lightgreen: #87D8C0;
+  --cu-green: #16B68E;
+  --cu-black: #080710;
+}
+
+/* Fonts */
+body {
+  font-family: 'Computer Modern Sans', 'sans-serif'; /*, 'Helvetica', 'Arial', sans-serif;*/
+  background-color: var(--cu-white);
+  color: var(--cu-black);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: var(--cu-green);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ /* Others */
+.cu-navbar {
+  color: var(--cu-white);
+  background-color: var(--cu-blue);
+}
+
+.cu-personal-card {
+  border-color: var(--cu-lightblue);
+  border-width: 3px;
+}
+
+.cu-paper-card {
+  border-color: var(--cu-lightblue);
+  border-width: 3px;
+  color: var(--cu-black);
+  background-color: white;
+}
+
+.cu-paper-card-header {
+  background-color: var(--cu-lightblue);
+  color: white;
+  font-weight: bold;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.cu-footer {
+  /* background-color: var(--cu-lightblue); */
+  color: var(--cu-black);
+  font-size: xx-small;
+}
